@@ -52,11 +52,11 @@ export default function Header() {
             <li>
               MOBILE APP
               <div className="app-link">
-                <a href="#" className="app-logo google-play">
+                <a href="/#" className="app-logo google-play">
                   <span>Google Play</span>
                 </a>
 
-                <a href="#" className="app-logo app-store">
+                <a href="/#" className="app-logo app-store">
                   <span>App Store</span>
                 </a>
               </div>
