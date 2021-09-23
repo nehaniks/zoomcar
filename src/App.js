@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <h1>ZoomCar</h1>
+      <h2>The ZoomCar Advantage</h2>
     </div>
   );
 }
