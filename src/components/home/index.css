@@ -1,0 +1,79 @@
+.background {
+    background-image: url(https://www.zoomcar.com/build/img/intro_bg.59b15d84c75cf310e76cc40155b90dc6.jpg);
+    height: 520px;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.home-content {
+    padding-top: 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    font-size: 44px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#home h3 {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 30px 0;
+    font-weight: 400;
+}
+
+#home h3 span {
+    font-weight: 600;
+    border-bottom: 1px dashed #fff;
+    cursor: pointer;
+}
+
+#home h3 span::after {
+    position: relative;
+    top: -5px;
+    content: '';
+    height: 9px;
+    width: 9px;
+    border: 0;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.search-box {
+    width: 540px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 60px;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+    color: #323a44;
+    text-decoration: none;
+    display: block;
+}
+
+.search-box::after {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    content: '';
+    height: 13px;
+    width: 13px;
+    border: 0;
+    border-right: 2px solid #323a44;
+    border-bottom: 2px solid #323a44;
+    transform: rotate(-45deg);
+    display: inline-block;
+}
